@@ -1,13 +1,13 @@
 交换格式
 
-问卷编号	long 0VTTTTTTAAAAAAYYMMDD
-问题编号	long 1VTTTTTTAAAAAAYYMMDD
-选项编号	long 2VTTTTTTAAAAAAYYMMDD
+问卷编号	long 0VTTTTTTAAAAAA
+问题编号	long 1VTTTTTTAAAAAA
+选项编号	long 2VTTTTTTAAAAAA
 
 
-Y	年
-M	月
-D	日
+*   Y	年
+*   M	月
+*   D	日
 T	类型
 	TTTTTT 问题：
 	1:
