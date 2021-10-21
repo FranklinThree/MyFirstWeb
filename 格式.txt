@@ -1,8 +1,9 @@
 交换格式
 
-问卷编号    1VAAAAA
-问题编号    2VAAAAABBBBB
-选项编号    3VAAAAABBBBBCCCCC
+问卷编号    1VAAA
+问题编号    2VAAABBB
+选项编号    3VAAABBBCCC
+链接编号    4VAAABBBCCCDDD
 
 问卷信息	long TTTTTTYYMMDD
 问题信息	long TTTTTTYYMMDD
@@ -63,10 +64,10 @@ V	初始是否显示
 #答卷格式（前端到后端）
 问卷编号{
 	问题编号{
-		答题内容
-			选择题：(选项编号,选项编号...)
-			简答题：...
-			
+        选择题：(选项编号,选项编号...)
 	}
+	问题编号{
+        简答题：(...)
+    }
 }
 
