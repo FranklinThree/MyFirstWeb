@@ -1,8 +1,10 @@
 package structure;
 
+import java.lang.annotation.Target;
 import java.rmi.server.UID;
 import java.sql.Connection;
 import java.util.ArrayList;
+
 
 public class Questionnaire {
     long UID;
@@ -14,11 +16,12 @@ public class Questionnaire {
         this.string = string;
         this.questions = questions;
     }
-
+    @Override
     public String toString(){
 
         return "";
     }
+
     public static Questionnaire New(String data){
         //TODO 直接传输格式化问卷数据生成问卷
         return null;

@@ -1,38 +1,42 @@
 交换格式
 
-问卷编号    1VAAA
-问题编号    2VAAABBB
-选项编号    3VAAABBBCCC
-链接编号    4VAAABBBCCCDDD
+问卷编号 long   1VAAAA
+问题编号 long   2VBBBB
+选项编号 long   3VCCCC
+链接编号 long   4DDDDD
+文本编号 long   5VEEEEEE
+
 
 问卷信息	long TTTTTTYYMMDD
 问题信息	long TTTTTTYYMMDD
-选项信息	long TTTTTTYYMMDD
+	TTTTTT
+	1:
+		数据		问题类型
+		1		选择题
+		2		填空题
+		3		简答题
+	2:
+	    选择题：
+        数据      典型
+	    1       是否双选题（是的，不是）
+	    2
+	3,4:
+		选择题：
+		数据		总选项数
+		*		*
+	5,6：
+		选择题：
+		数据		可选项数
+		*		*
+选项信息	long TTTTTTYYMMDDLLLLLL
+
 
 
 Y	年
 M	月
 D	日
 T	类型
-	TTTTTT 问题：
-	1:
-		数据		问题类型
-		1		选择题
-		2		填空题
-		3		简答题
-		4		判断题(doge)
-		
-	2，3:
-		选择题：
-		数据		总选项数
-		*		*
-		
-		
-	4，5：
-		选择题：
-		数据		可选项数
-		*		*
-		
+
 		
 	
 V	初始是否显示
